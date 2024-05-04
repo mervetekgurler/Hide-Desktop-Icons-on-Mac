@@ -12,11 +12,14 @@
 
 3. **Set Up Run Shell Script:**
    - Type `Terminal` in the search bar.
-   - Double-click on "Run Shell Script". You might be prompted to give permissions to Shortcuts for actions. A new action panel will appear with a default script that says `echo "Hello World"`.
+   
    ![Add Run Shell Script](/hide_desktop_icons/add_shortcut.png)
-  ![Default shell script](/hide_desktop_icons/run_shell_script.png)
 
-4. **Edit the Script:**
+   - Double-click on "Run Shell Script". You might be prompted to give permissions to Shortcuts for actions. A new action panel will appear with a default script that says `echo "Hello World"`.
+     
+   ![Default shell script](/hide_desktop_icons/run_shell_script.png)
+
+5. **Edit the Script:**
    - Click on the script line, delete it, and type:
      ```
      defaults write com.apple.finder CreateDesktop -bool false
@@ -25,7 +28,7 @@
 
      ![First Command](/hide_desktop_icons/hide_shortcut_firstcommand.png)
 
-5. **Add Another Script to Refresh Finder:**
+6. **Add Another Script to Refresh Finder:**
    - Repeat the steps to add a "Run Shell Script".
    - Type:
      ```
@@ -33,7 +36,7 @@
      ```
      ![Hide Shortcut Final](/hide_desktop_icons/hide_shortcut_final.png)
 
-6. **Run the Shortcut:**
+7. **Run the Shortcut:**
    - Press the play button to execute. This will hide all desktop icons. Icons can still be accessed via Finder, and this does not affect file contents.
 
 ### Add the Shortcut to the Menu Bar
