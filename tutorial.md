@@ -14,6 +14,7 @@
    - Type `Terminal` in the search bar.
    - Double-click on "Run Shell Script". You might be prompted to give permissions to Shortcuts for actions. A new action panel will appear with a default script that says `echo "Hello World"`.
    ![Add Run Shell Script](/hide_desktop_icons/add_shortcut.png)
+  ![Default shell script](/hide_desktop_icons/run_shell_script.png)
 
 4. **Edit the Script:**
    - Click on the script line, delete it, and type:
