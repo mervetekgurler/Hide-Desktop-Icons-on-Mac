@@ -7,7 +7,7 @@
 
 
 2. **Add a New Shortcut:**
-   - Click the `+` button to start creating a new shortcut.
+   - Click the `+` button to start creating a new shortcut. This screen below will appear.
    ![Create New Shortcut](/hide_desktop_icons/create_new_shortcut.png)
 
 3. **Set Up Run Shell Script:**
@@ -30,6 +30,7 @@
      ```
      killall Finder
      ```
+     ![Hide Shortcut Final](/hide_desktop_icons/hide_shortcut_final.png)
 
 6. **Run the Shortcut:**
    - Press the play button to execute. This will hide all desktop icons. Icons can still be accessed via Finder, and this does not affect file contents.
@@ -38,11 +39,12 @@
 
 1. **Name Your Shortcut:**
    - Right-click on the Shortcut in the Shortcuts app and name it "Hide Desktop Icons".
-   ![Hide Shortcut Final](/hide_desktop_icons/hide_shortcut_final.png)
-
+   
 2. **Move to Menu Bar:**
    - Drag the Shortcut to the Menu Bar listed on the left.
    - A Shortcuts icon will appear on your Menu Bar on the upper left side of your Mac.
+  
+     ![Add to Menu Bar](/hide_desktop_icons/mainbar_shortcuts.png)
 
 3. **Use the Shortcut:**
    - Click the Shortcut icon in the Menu Bar to hide your desktop icons with one click.
@@ -57,8 +59,9 @@
      ```
      defaults write com.apple.finder CreateDesktop -bool true; killall Finder
      ```
-
-3. **Name and Add to Menu Bar:**
+   ![Create Unhide Shortcut](/hide_desktop_icons/unhide_shortcut.png)
+   
+4. **Name and Add to Menu Bar:**
    - Name the Shortcut "Unhide Desktop Icons".
    - Follow the same steps to add this Shortcut to the Menu Bar.
 
